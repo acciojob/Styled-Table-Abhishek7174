@@ -1,1 +1,54 @@
 /* your code */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 900px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+caption {
+    caption-side: top;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #003566;
+    padding: 15px;
+}
+
+thead {
+    background-color: #003566;
+    color: white;
+}
+
+thead th {
+    padding: 12px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+tbody td {
+    text-align: center;
+    padding: 10px 12px;
+    color: #333;
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f1f5ff;
+}
+
+tbody tr:hover {
+    background-color: #e0ecff;
+    transition: 0.3s;
+}
